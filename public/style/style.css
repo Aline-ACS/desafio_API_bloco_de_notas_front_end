@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+.notes {
+  padding: 5px;
+}
+
+.notesHtml {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+label {
+  color: black;
+  font-family: cursive;
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.texto-input {
+  padding: 1px;
+  width: 120px;
+  border: 0.8px solid #7f295e;
+  margin: 5px auto;
+  text-align: center;
+  font-family: cursive;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.texto-input:focus {
+  border: 2px solid #7f295e;
+}
+/*# sourceMappingURL=style.css.map */
